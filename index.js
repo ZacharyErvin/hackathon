@@ -27,7 +27,7 @@ app.post('/echo', (req, res) => {
     if (options.flag) {
         out.flag = flag;
     } else {
-        out.flag = 'disabled';
+        out.flag = 'enabled';
     }
 
     res.json(out);
